@@ -1,0 +1,29 @@
+{
+  "method": "dm_get_device_info",
+  "timestamp": 1490229730,
+  "req_id": 123,
+  "msg_tag": "",
+  "code": 0,
+  "msg": "success",
+  "result": {
+    "family_id": 23670,
+    "user_id": 71948,
+    "device_id": 13,
+    "device_uuid": "test123123",
+    "device_name": "水晶灯xxxx",
+    "default_device_name": "摄像头",
+    "family_id": 1,
+    "is_common":1, //是否为常用设备，1--是，0--否
+    "room_id": 3,
+    "sight_id": 3,
+    "sight_name": "安防",
+    "device_category_id": 11,
+    "category_sub":5023,
+    "device_access_type": 1,//0:中控接入,1:云云对接,2:APP对接,3:云中控接入
+    "created_at": 1490229658,
+    "updated_at": 1490229730,
+    "attribute": {
+      "test": 11
+    }
+  }
+}
